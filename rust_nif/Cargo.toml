@@ -1,0 +1,11 @@
+[package]
+name = "nif"
+version = "0.1.0"
+authors = ["Theron Boerner <hunterboerner@gmail.com>"]
+
+[lib]
+name = "rust_nif"
+crate-type = ["dylib"]
+
+[dependencies]
+ruster_unsafe = "*"
